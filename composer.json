@@ -1,5 +1,5 @@
 {
-    "name": "movies/movies",
+    "name": "bravoury/movies",
     "description": "Movies package for movies.",
     "keywords": ["lavalite", "Movies"],
     "license": "MIT",
