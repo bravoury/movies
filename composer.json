@@ -17,5 +17,15 @@
             "Movies\\Movies\\": "src/Movies/Movies"
         }
     },
+       "extra": {
+        "laravel": {
+            "providers": [
+                "Movies\\Movies\\Providers\\MoviesServiceProvider"
+            ],
+            "aliases": {
+                "Movies"       : "Movies\\Movies\\Facades\\Movies"
+            }
+        }
+    },
     "minimum-stability": "dev"
 }
