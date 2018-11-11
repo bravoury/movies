@@ -1,0 +1,21 @@
+{
+    "name": "movies/movies",
+    "description": "Movies package for movies.",
+    "keywords": ["lavalite", "Movies"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lavalite",
+            "email": "info@lavalite.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Movies\\Movies\\": "src/Movies/Movies"
+        }
+    },
+    "minimum-stability": "dev"
+}
